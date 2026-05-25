@@ -1,0 +1,106 @@
+body {
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --rating-bg: rgb(105, 60, 124);
+    --main-color: #2D2F2F;
+    --text: #858585;
+    --table-bg: rgb(172, 49, 230);
+    --thead-bg: #4d40ff;
+    --tb-item-1-bg: #3200bd;
+    --tb-item-2-bg: #3220db;
+    --tb-item-3-bg: #3350cd;
+    --tb-item-4-bg: #3420bd;
+    --rating: #fffb00;
+}
+
+.rating {
+    background-color: var(--rating-bg);
+}
+
+.rating-title {
+    font-size: 60px;
+    font-weight: 900;
+    color: var(--rating-title);
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.rating-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text);
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.rating-table {
+    color: var(--main-color);
+}
+
+.table {
+    width: 1024px;
+    height: 467px;
+    border-collapse: collapse;
+    background-color: var(--table-bg);
+    border-radius: 16px;
+    box-shadow: 0px 40px 80px -20px #8D4A000F;
+}
+
+.table-head {
+    background-color: var(--thead-bg);
+    width: 1024px;
+    height: 64px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.tb-item-1 {
+    background-color: var(--tb-item-1-bg);
+}
+
+.tb-item-2 {
+    background-color: var(--tb-item-2-bg);
+}
+
+.tb-item-3 {
+    background-color: var(--tb-item-3-bg);
+}
+
+.tb-item-4 {
+    background-color: var(--tb-item-4-bg);
+}
+.nav-in-table {
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.data-in-table {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.title-in-table {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.starring-in-table {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.rating-in-table-in {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--main-color);
+    border-radius: 30px;
+    background-color: var(--rating);
+    padding: 10px;
+}
