@@ -1,5 +1,6 @@
 body {
     margin: 0 auto;
+    padding: 0 auto;
 }
 
 ul {
@@ -21,10 +22,16 @@ a {
     --tb-item-3-bg: #3350cd;
     --tb-item-4-bg: #3420bd;
     --rating: #fffb00;
+    --share-opinion-border: #4d0040;
+    --shart-opinion-text: #5A5C5C;
+    --input-bg: #eeeeee;
 }
 
 .rating {
     background-color: var(--rating-bg);
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .rating-title {
@@ -32,6 +39,8 @@ a {
     font-weight: 900;
     color: var(--rating-title);
     font-family: 'Space Grotesk', sans-serif;
+    margin-bottom: 0;
+    margin-top: 128px;
 }
 
 .rating-text {
@@ -39,6 +48,7 @@ a {
     font-weight: 400;
     color: var(--text);
     font-family: 'Be Vietnam Pro', sans-serif;
+    margin-bottom: 80px;
 }
 
 .rating-table {
@@ -52,6 +62,9 @@ a {
     background-color: var(--table-bg);
     border-radius: 16px;
     box-shadow: 0px 40px 80px -20px #8D4A000F;
+    text-align: start;
+    margin-bottom: 128px;
+    
 }
 
 .table-head {
@@ -85,6 +98,7 @@ a {
     font-size: 14px;
     font-weight: 700;
     font-family: 'Be Vietnam Pro', sans-serif;
+    padding-left: 35px;
 }
 .title-in-table {
     font-size: 14px;
@@ -103,4 +117,58 @@ a {
     border-radius: 30px;
     background-color: var(--rating);
     padding: 10px;
+}
+
+.share-opinion-div {
+    border: 10px solid var(--share-opinion-border);
+    border-radius: 50px;
+    width: 1152px;
+    height: 548px;
+    display: flex;
+}
+
+.share-opinion-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+.share-opinion-text {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--shart-opinion-text);
+}
+.share-opinion-member {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.share-opinion-subtitle-1 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 10px;
+    color: var(--shart-opinion-text);
+}
+.share-opinion-subtitle-2 {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 10px;
+    color: var(--shart-opinion-text);
+}
+.share-opinion-input {
+    border: 0px;
+    border-radius: 100px;
+    background-color: var(--input-bg);
+    padding-left: 25px;
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.share-opinion-article-1 {
+    margin-left: 80px;
+    margin-right: 64px;
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+.share-opinion-article-2 {
+    margin-top: 80px;
+    margin-bottom: 86px;
 }
