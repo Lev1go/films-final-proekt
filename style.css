@@ -25,6 +25,9 @@ a {
     --share-opinion-border: #4d0040;
     --shart-opinion-text: #5A5C5C;
     --input-bg: #eeeeee;
+    --button-bg: #7a0074;
+    --logo_color: rgb(122, 20, 160);
+    --bg-share-opinio: #96009b4b;
 }
 
 .rating {
@@ -52,19 +55,17 @@ a {
 }
 
 .rating-table {
-    color: var(--main-color);
+    border-radius: 16px;
+    overflow: hidden;
+    background-color: var(--table-bg);
+    margin-bottom: 128px;
 }
 
 .table {
     width: 1024px;
     height: 467px;
     border-collapse: collapse;
-    background-color: var(--table-bg);
-    border-radius: 16px;
-    box-shadow: 0px 40px 80px -20px #8D4A000F;
     text-align: start;
-    margin-bottom: 128px;
-    
 }
 
 .table-head {
@@ -119,11 +120,20 @@ a {
     padding: 10px;
 }
 
+.share-opinion-container {
+    background-color: var(--bg-share-opinio);
+    display: flex;
+    justify-content: center;
+}
+
 .share-opinion-div {
     border: 10px solid var(--share-opinion-border);
     border-radius: 50px;
+    margin-top: 128px;
+    margin-bottom: 128px;
     width: 1152px;
-    height: 548px;
+    height: 532px;
+    background-color: white;
     display: flex;
 }
 
@@ -131,6 +141,7 @@ a {
     font-family: 'Space Grotesk', sans-serif;
     font-size: 60px;
     font-weight: 700;
+    margin-top: 110px;
 }
 .share-opinion-text {
     font-family: 'Be Vietnam Pro', sans-serif;
@@ -142,11 +153,13 @@ a {
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 14px;
     font-weight: 400;
+    color: var(--shart-opinion-text);
 }
 .share-opinion-subtitle-1 {
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 10px;
-    color: var(--shart-opinion-text);
+    color: var(--shart-opinion-text);|
+    
 }
 .share-opinion-subtitle-2 {
     font-family: 'Be Vietnam Pro', sans-serif;
@@ -163,12 +176,66 @@ a {
     padding-bottom: 20px;
 }
 .share-opinion-article-1 {
-    margin-left: 80px;
-    margin-right: 64px;
-    margin-top: 110px;
-    margin-bottom: 110px;
+    margin-left: 100px;
+    margin-right: 150px;
 }
 .share-opinion-article-2 {
-    margin-top: 80px;
-    margin-bottom: 86px;
+    margin-top: 110px;
+}
+
+.share-opinion-button {
+    background-color: var(--button-bg);
+    border: 0px;
+    border-radius: 75px;
+    padding-left: 115px;
+    padding-right: 115px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.share-opinion-authenticate-text {
+    font-size: 15px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: var(--text);
+    text-align: center;
+}
+.member {
+    margin-top: 32px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-list {
+    display: flex;
+    gap: 40px;
+    padding-left: 156.6px;
+}
+.footer-title {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Space Grotesk', sans-serif;
+    color: var(--logo_color);
+    padding-left: 80px;
+    padding-top: 64px;
+}
+.footer-item {
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+.footer-item-text {
+    font-size: 14px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: var(--shart-opinion-text);
+}
+.copyright {
+    font-weight: 500;
+    font-size: 10px;
+    font-family: Be Vietnam Pro;
+    color: var(--shart-opinion-text);
+    padding-top: 95px;
+    padding-left: 156.61px;
 }
